@@ -1,3 +1,4 @@
+/*Write code that throws a custom exception if the given number has more than one digit. Catch the exception and print an appropriate message. */
 class SingleDigitException extends Exception {
     public SingleDigitException(String message) {
         super(message);
